@@ -1,0 +1,30 @@
+{
+ "pins": {
+  "left": {
+   "en": 32,
+   "a": 29,
+   "b": 31
+  },
+  "right": {
+   "en": 33,
+   "a": 35,
+   "b": 37
+  }
+ },
+ "use_pwm": false,
+ "pwm_hz": 1000,
+ "invert_left": false,
+ "invert_right": false,
+ "swap_sides": false,
+ "speed_mps": 0.6666666666666666,
+ "base_duty": 70.0,
+ "turn_duty_min": 60.0,
+ "turn_duty_max": 100.0,
+ "turn_kp": 2.0,
+ "hold_kp": 2.5,
+ "turn_tol_deg": 3.0,
+ "i2c_bus": 8,
+ "imu_addr": 104,
+ "bias_seconds": 10.0,
+ "max_rate_dps": 300.0
+}

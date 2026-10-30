@@ -1,0 +1,16 @@
+# point clouds and large data
+*.ply
+*.pcd
+*.bag
+*.db3
+# runtime output
+__pycache__/
+*.pyc
+*.log
+*.csv
+received_paths/
+received_path.json
+planned_path.json
+# local config / secrets
+.env
+*.key
